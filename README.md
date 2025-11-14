@@ -4,5 +4,4 @@
 Этот репозиторий является каркасом для будущего веб-приложения.
 
 ## Ссылки
-- [Публичная страница на GitHub Pages](https://dripskii.github.io/
-prac1/)
+- [Публичная страница на GitHub Pages](https://dripskii.github.io/prac1/)
