@@ -1,0 +1,155 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Roboto', system-ui, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #a37777;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.header__title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.header__banner {
+    width: 30%;
+}
+
+.header__nav {
+    margin-top: 10px;
+}
+
+.header__logo {
+    position: absolute; /* Фиксируем логотип в верхнем левом углу */
+    top: 20px; /* Отступ сверху */
+    left: 20px; /* Отступ слева */
+    z-index: 100; /* Убедимся, что логотип будет поверх других элементов */
+}
+
+.header__logo img {
+    width: 100px;
+    height: auto;
+}
+
+.header__nav-list {
+    list-style: none;
+}
+
+.header__nav-item {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.header__nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 3px;
+}
+
+.header__nav-link:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.main {
+    padding: 20px;
+}
+
+.main__section {
+    margin-bottom: 40px;
+}
+
+.main__section-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.main__article {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+    margin: 10px;
+    text-align: center;
+}
+
+.main__article:hover {
+    transform: translateY(-5px);
+}
+
+.main__article-icon {
+    width: 50px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.main__article-title {
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.main__article-text {
+    font-size: 0.875rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.main__article-price {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.main__button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.main__button:hover {
+    background-color: #555;
+}
+
+.main__button:active {
+ transform: scale(0.90);
+}
+
+.main__button--buy {
+    margin-right: 10px;
+}
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer__text {
+    font-size: 1rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
