@@ -7,7 +7,7 @@
     <title>Рево-кофе</title>
 
     <link rel="icon" href="assets/icons/loai_hat.png" type="image/x-icon">
-    <link rel="stylesheet"  href="style.css">
+    <link rel="stylesheet"  href="styles/style.css">
 </head>
 
 <body>
@@ -18,7 +18,12 @@
             <a class="header__logo" href="index.html">
                 <img src="LOGO.png" alt="Логотип компании">
             </a>
-            <ul class="header__nav-list">
+            <button class="menu-toggle" id="menuToggle" aria-label="Открыть меню" aria-expanded="false">
+            <span class="menu-toggle__line"></span>
+            <span class="menu-toggle__line"></span>
+            <span class="menu-toggle__line"></span>
+        </button>
+            <ul class="header__nav-list" id="mainNav">
                 <li class="header__nav-item"><a href="#origin" class="header__nav-link">Cвоя база кофе</a></li>
                 <li class="header__nav-item"><a href="#taste" class="header__nav-link">Хороший вкус</a></li>
                 <li class="header__nav-item"><a href="#giftset" class="header__nav-link">Гифтсет</a></li>
@@ -148,6 +153,14 @@
     <footer class="footer">
     <p class="footer__text">Рево Кофе Вьетнам - 2018</p>
 </footer>
+    
+    <!-- Кнопка "Наверх" -->
+    <button class="scroll-top" id="scrollTop" aria-label="Наверх">
+        ↑
+    </button>
+
+    <!--Подключение JavaScript-->
+    <script src="scripts/menu.js"></script>
 </body>
 
 </html>
